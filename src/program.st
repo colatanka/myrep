@@ -1,6 +1,7 @@
 PROGRAM MyProgram
     VAR_EXTERNAL
-
+        In : INT;
+        Out : INT;
     END_VAR
 
     VAR
@@ -12,5 +13,5 @@ PROGRAM MyProgram
     END_VAR
 
     // code here
-    ;
+    Out := In;
 END_PROGRAM

@@ -11,3 +11,6 @@ devDependencies:
   "@ax/sdk": 2311.0.1
 installStrategy: strict
 apaxVersion: 3.0.0
+dependencies:
+  "@ax/agent": ^0.5.0
+  "@ax/apax": ^3.0.0
